@@ -1,0 +1,21 @@
+
+/* Configurações da div principal */
+div.principal {
+  background-color: #ddd;
+  width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Configuração do Conteúdo Principal */
+section{
+  background-color: #fff;
+  width: 900px;
+  margin: auto;
+  padding: 150px;
+  box-sizing: border-box; /* Esse comando
+  permite o uso do padding sem que sofra 
+  uma desconfiguração da página. Com ela
+  o código é limitado (fica dentro de uma
+  caixa) */
+}

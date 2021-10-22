@@ -1,0 +1,58 @@
+/* Configurações gerais do layout */
+* { 
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+/* Configurações da div principal */
+div.principal {
+  background-color: #ccc;
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* Configurações do Cabeçalho */
+header {
+  background: #fff;
+  width: 1200px;
+  height: 100px;
+}
+
+/* Configuração do Menu */
+nav {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 1200px;
+  height: 40px;
+}
+
+/* Configuração do Conteúdo Principal */
+section{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 900px;
+  height: 500px;
+  float: left; /* Comando que faz com que a tag flutue na tela da posição desejada */
+}
+
+/* Configuração do Conteúdo Secundário */
+aside{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 290px;
+  height: 500px;
+  float: left; /* Comando que faz com que a tag flutue na tela da posição desejada */
+  margin-left: 10px;
+  margin-bottom: 10px; /* como a tag abaixo vai usar o comando para limpar a flutuação das tags a definição da margem tem que ser inserida aqui */
+}
+
+/* Configuração do Rodapé */
+footer {
+  background-color: #fff;
+  width: 1200px;
+  height: 50px;
+  clear: both; /* Comando necessário para limpar a tag que vem logo depois de uma tag com flutuação de conteúdo */
+}
