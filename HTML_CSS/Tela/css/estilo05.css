@@ -1,0 +1,28 @@
+
+/* Comando global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: 'fontLocal';
+    src: url(../fontes/DancingScript-Regular.ttf);
+}
+
+/* Comando local */
+
+p.fontSistema{
+    font-family: Arial;
+}
+
+p.fontLocal{
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-family: 'fontLocal';
+    
+}
+
+p.fontExterna{
+    font-family: 'Roboto Mono', monospace;
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+figure.fundo{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px;
+}
