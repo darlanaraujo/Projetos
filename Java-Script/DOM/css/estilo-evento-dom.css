@@ -1,0 +1,39 @@
+#area{
+    font: normal 20pt Arial;
+    background: rgb(78, 182, 78);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.soma{
+    background: rgb(226, 226, 226);
+    padding: 30px;
+}
+
+.soma #nome{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px;
+}
+
+.soma #texto{
+    display: none;
+}
+
+.soma #n1, #n2{
+    padding: 5px;
+}
+
+.soma .result{
+    font-size: 20px;
+}
+
+.soma span{
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
